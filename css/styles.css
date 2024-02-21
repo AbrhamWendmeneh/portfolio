@@ -1,9 +1,6 @@
-
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
-
 :root {
-
   --clr-primary-1: #1c0b4a;
   --clr-primary-2: #2c0e5b;
   --clr-primary-3: #3f116e;
@@ -16,12 +13,12 @@
   --clr-primary-8: #8e50d6;
   --clr-primary-9: #aa7ae5;
   --clr-primary-10: #dcd5f8;
-  
+
   --clr-grey-1: #16122e;
   --clr-grey-2: #2c2547;
   --clr-grey-3: #352952;
   --clr-grey-4: #432f6a;
-  
+
   --clr-grey-5: #514087;
   --clr-grey-6: #6a59a6;
   --clr-grey-7: #7f76c9;
@@ -38,7 +35,6 @@
   --dark-shadow: 0 5px 15px rgba(28, 11, 74, 0.2);
   --max-width: 1170px;
 }
-
 
 *,
 ::after,
@@ -481,7 +477,9 @@ without grid
 Projects
 ===============
 */
-
+.p-1 {
+  text-align: left;
+}
 .projects-text {
   width: 85vw;
   max-width: 30rem;
